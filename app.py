@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-st.header("Candidate Resume Screener Tool")
+st.header("Candidate Resume Pre-Screener Tool")
 st.subheader("NLP Based Resume Screening")
 
 st.caption("The Tool provides a pre-screening check and pattern matching between a job's requirements and the qualifications of a candidate based on their resume.")
